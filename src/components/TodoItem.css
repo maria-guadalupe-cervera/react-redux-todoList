@@ -1,0 +1,19 @@
+.todoItem{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background-color: rgba(204, 238, 252, 0.61);
+    margin: 6px 4px;
+    height: 40px;
+    border-radius: 12px;
+
+}
+.todoItem:hover{
+    background-color: rgba(226, 245, 253, 0.678);
+}
+.todoItem>p{
+    flex:1 ;
+}
+.todoItem--done{
+    text-decoration: line-through;
+}
